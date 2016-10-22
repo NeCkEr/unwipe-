@@ -17,3 +17,13 @@ brew install the_silver_searcher
 brew install mongo
 brew services start mongodb
 npm install -g mongo-hacker
+
+brew cask install google-chrome
+brew cask install dropbox
+brew cask install 1password
+brew cask install spectacle
+brew cask install atom
+brew cask install java
+brew cask install iterm2
+brew cask install slack
+brew cask install istat-menus
