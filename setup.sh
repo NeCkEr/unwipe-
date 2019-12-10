@@ -14,6 +14,11 @@
 # brew install ag
 # brew install vault
 
+# # Git
+# cd ~/Code/NeCkEr/unwipe-/git
+# cp .gitconfig ~/.gitconfig
+# cp .gitignore_global ~/.gitignore_global
+
 # # Emacs
 # brew tap daviderestivo/emacs-head
 # brew install emacs-head --with-cocoa --with-imagemagick --with-modern-icon-black-variant
@@ -75,7 +80,7 @@
 
 # Applications
 # brew cask install google-chrome
-brew cask install spectacle
+# brew cask install spectacle
 # brew cask install iterm2
 # brew cask install istat-menus
 # brew cask install 1password
