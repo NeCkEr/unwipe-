@@ -11,6 +11,8 @@
 # unix terminal utils
 # brew install tree
 # brew install wget
+# brew install ag
+# brew install vault
 
 # # Emacs
 # brew tap daviderestivo/emacs-head
@@ -24,14 +26,14 @@
 # mv ~/.emacs.d ~/.emacs.d.old
 # mkdir ~/.emacs.d
 # ### copy new config
-# cd ~/Code/emacs.d
+# cd ~/Code/NeCkEr/emacs.d
 # cp init.el ~/.emacs.d/init.el
 # cp new-config.org ~/.emacs.d/new-config.org
 
 # # Shell
 # ## assuming that zshell is the default thing
 # ## Copy dot shell conifg file
-# cd ~/Code/unwipe-/shell
+# cd ~/Code/NeCkEr/unwipe-/shell
 # cp .zshrc ~/.zshrc
 # ## Fish Shell
 # brew install fish
@@ -39,16 +41,40 @@
 # wget https://git.io/fundle -O ~/.config/fish/functions/fundle.fish
 # cp fish/config.fish ~/.config/fish/config.fish
 # cp fish/functions/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+# cp fish/functions/export.fish ~/.config/fish/functions/export.fish
+# cp fish/functions/jenv.fish ~/.config/fish/functions/jenv.fish
+# cp fish/functions/originrose-vault.fish ~/.config/fish/functions/originrose-vault.fish
+# chsh -s /usr/local/bin/fish
 
-##
+# # fnm Fast Node Manager - Nodejs
+# curl -fsSL https://github.com/Schniz/fnm/raw/master/.ci/install.sh | bash -s -- --force-install
 
-# Java
+# # Java
+# brew tap adoptopenjdk/openjdk
+# brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+# brew cask install adoptopenjdk/openjdk/adoptopenjdk11
 
-# Clojure
+# brew install jenv
+# jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
+# jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/
+
+# # Clojure
+# ## Leiningen
+# curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein > lein
+# sudo mv lein /usr/local/bin/lein
+# sudo chmod a+x /usr/local/bin/lein
+
+# ## clojure/clj cli
+# brew install clojure
+
+# ## Docker
+# Install it from the web...
+
+# ## postgresql
+# brew install postgresql
 
 # Applications
-
-# # brew cask install google-chrome
+# brew cask install google-chrome
 brew cask install spectacle
 # brew cask install iterm2
 # brew cask install istat-menus
