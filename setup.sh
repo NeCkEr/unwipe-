@@ -19,8 +19,23 @@
 # cp .gitconfig ~/.gitconfig
 # cp .gitignore_global ~/.gitignore_global
 
+## # git-crypt
+# brew install git-crypt
+
+# # Doom emacs
+# brew install git ripgrep
+# # optional dependencies
+# brew install coreutils fd
+# # Installs clang
+# xcode-select --install
+
+# brew tap d12frosted/emacs-plus
+# brew install emacs-plus
+# ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
+
 # # Emacs
 # brew tap daviderestivo/emacs-head
+# brew install --HEAD emacs-head --with-cocoa --with-no-frame-refocus --with-imagemagick --with-pdumper --with-xwidgets --with-modern-icon-vscode
 # brew install emacs-head --with-cocoa --with-imagemagick --with-modern-icon-black-variant
 # ## download and load emacs.d
 # ### clone NeCkEr/emacs.d.git
@@ -53,6 +68,10 @@
 
 # # fnm Fast Node Manager - Nodejs
 # curl -fsSL https://github.com/Schniz/fnm/raw/master/.ci/install.sh | bash -s -- --force-install
+#brew install fnm
+
+#emacs csharp
+# brew install omnisharp/omnisharp-roslyn/omnisharp
 
 # # Java
 # brew tap adoptopenjdk/openjdk
@@ -72,11 +91,83 @@
 # ## clojure/clj cli
 # brew install clojure
 
+# ## sass
+# brew install sassc
 # ## Docker
 # Install it from the web...
+## ## docker-machine
+# curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-`uname -s`-`uname -m` >/usr/local/bin/docker-machine
+# chmod +x /usr/local/bin/docker-machine
+
+## terraform
+# brew install terraform
+
+## go
+# brew install go
+
+# unrar
+#brew install unrar
+
+# gzip
+#brew install gzip
+
+## babashka
+# curl -s https://raw.githubusercontent.com/borkdude/babashka/master/install -o install-babashka
+# chmod +x install-babashka && ./install-babashka
+# ls | bb -i '(filter #(-> % io/file .isDirectory) *input*)'
+
+
+##clj-kondo
+#curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/script/install-clj-kondo
+#chmod +x install-clj-kondo
+#./install-clj-kondo
+#https://meet.google.com/qxq-xxno-svv?pli=1&authuser=0
+
+## Bootleg
+# curl -LO https://github.com/retrogradeorbit/bootleg/releases/download/v0.1.9/bootleg-0.1.9-macos-amd64.zip
+# unzip bootleg-0.1.9-macos-amd64.zip
+# mv bootleg /usr/local/bin
+#
+
+## pod-babashka-filewatcher
+# curl -LO https://github.com/babashka/pod-babashka-filewatcher/releases/download/v0.0.1/pod-babashka-filewatcher-0.0.1-macos-amd64.zip
+# unzip pod-babashka-filewatcher-0.0.1-macos-amd64.zip
+# mv pod-babashka-filewatcher /usr/local/bin
+
+
+
+## Spire
+# curl -O https://raw.githubusercontent.com/epiccastle/spire/master/scripts/install
+# bash install
+
+
+# ## Packer
+# brew tap hashicorp/tap
+# brew install hashicorp/tap/packer
+
+# ## AWS
+# ## awscli
+# brew install awscli
+
+# # aws CDK typescrypt
+# npm install -g aws-cdk
+
+# ## DigitalOcean cli
+# brew install doctl
 
 # ## postgresql
 # brew install postgresql
+
+## sqlserver
+# brew install mssql-tools
+
+## sed
+# brew install gnu-sed
+
+##ripgrep
+# brew install ripgrep
+
+# brew cask install gifcapture
 
 # Applications
 # brew cask install google-chrome
@@ -84,12 +175,31 @@
 # brew cask install iterm2
 # brew cask install istat-menus
 # brew cask install 1password
-
+# brew cask install dropbox
+# brew cask install spotify
 # brew cask install slack
 # brew cask install caffeine
 # brew install transmission
 # brew cask install vlc
 # brew cask install grandperspective
+# brew cask install zoomus
+
+#ngrok
+# brew cask install ngrok
+
+# Unity
+# brew cask install unity
+# ## 3DPrinter
+# https://pbxbook.com/other/mac-tty.html
+# brew install minicom
+
+# brew cask install slic3r
+# brew cask install meshlab
+# brew cask install meshmixer
+
+# ## IOT
+### IKEA Tradfri
+# brew install libcoap
 
 # osx utils and tunning
 # brew install dockutil
@@ -139,3 +249,6 @@
 
 ## Apple store
 # brew install mas
+
+## stremio
+# brew cask install stremio
