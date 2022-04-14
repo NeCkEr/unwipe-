@@ -28,15 +28,32 @@
 # brew install coreutils fd
 # # Installs clang
 # xcode-select --install
+# emacs csharp
+# brew install omnisharp/omnisharp-roslyn/omnisharp
 
+# npm doom dependecies:
+# npm install -g stylelint
+# npm install -g js-beautify
+# brew install ShellCheck
+# npm install -g marked
+
+# # Emacs from doom website
+#brew tap railwaycat/emacsmacport
+#brew install emacs-mac --with-modules
+#ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
+
+
+# old
 # brew tap d12frosted/emacs-plus
 # brew install emacs-plus
 # ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
 
 # # Emacs
+# old
 # brew tap daviderestivo/emacs-head
 # brew install --HEAD emacs-head --with-cocoa --with-no-frame-refocus --with-imagemagick --with-pdumper --with-xwidgets --with-modern-icon-vscode
 # brew install emacs-head --with-cocoa --with-imagemagick --with-modern-icon-black-variant
+#
 # ## download and load emacs.d
 # ### clone NeCkEr/emacs.d.git
 # mkdir ~/Code
@@ -70,8 +87,7 @@
 # curl -fsSL https://github.com/Schniz/fnm/raw/master/.ci/install.sh | bash -s -- --force-install
 #brew install fnm
 
-#emacs csharp
-# brew install omnisharp/omnisharp-roslyn/omnisharp
+
 
 # # Java
 # brew tap adoptopenjdk/openjdk
@@ -110,6 +126,13 @@
 
 # gzip
 #brew install gzip
+
+# direnv
+#brew install direnv
+
+#clojure-lsp
+#brew install clojure-lsp/brew/clojure-lsp-native
+
 
 ## babashka
 # curl -s https://raw.githubusercontent.com/borkdude/babashka/master/install -o install-babashka
